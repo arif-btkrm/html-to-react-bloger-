@@ -1,13 +1,13 @@
 
 import {Helmet} from "react-helmet";
-
+import AppRouter from "./router";
 
 
 import './../assets/styles/style.css';
 import './../assets/styles/bootstrap.css'
 
-import AppRouter from "./router";
-import { Helmet } from 'react-helmet';
+
+
 
 
 // import './../assets/js/bootstrap';
@@ -26,7 +26,7 @@ function App() {
      */}
      {/* <script>try{Typekit.load({ async: true })}catch(e){}</script> */}
     </Helmet>
-  
+    
     <AppRouter/>
   
   
